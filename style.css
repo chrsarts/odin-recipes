@@ -10,7 +10,7 @@ body {
   background-color: #efead8;
 }
 
-li {
+.nav-links li {
   margin: 10px;
   text-decoration: none;
 }
@@ -41,4 +41,21 @@ p {
 h1 {
   margin-top: 15px;
   font-size: 20px;
+}
+
+.recipe-container {
+  display: flex;
+  align-items: center;
+  color: #5d7f65;
+  justify-content: center;
+}
+.recipe-list {
+  margin: 8px;
+  text-align: start;
+}
+
+ol li {
+  margin: 10px;
+  list-style: decimal;
+  list-style-position: inside;
 }
